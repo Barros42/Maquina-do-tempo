@@ -1,0 +1,5 @@
+{
+    "appService.showBuildDuringDeployPrompt": false,
+    "appService.defaultWebAppToDeploy": "/subscriptions/b8076a2d-eb12-4d99-abfd-076f0e8fca6b/resourceGroups/Delorean/providers/Microsoft.Web/sites/maquinadotempo",
+    "appService.deploySubpath": "."
+}
