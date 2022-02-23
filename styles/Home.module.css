@@ -60,9 +60,10 @@
   margin-top: 20px !important;
 }
 
-.copyright {
+.footerText {
   color: #FFF;
   margin-top: 10px;
+  text-align: center;
 }
 
 @media (max-width: 1024px) {

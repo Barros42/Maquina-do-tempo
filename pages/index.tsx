@@ -115,7 +115,9 @@ const Home: NextPage = () => {
           <SuccessPanel/>
         }
       </div>
-      <div className={styles.copyright}>Copyright &copy; {today.getFullYear()} Barros. Todos os direitos reservados </div>
+      <div className={styles.footerText}>Enviar cartas para o futuro consome muita energia! Ajude o projeto a se manter vivo!</div>
+      <div className={styles.footerText}>PIX {'=>'} <a href="mailto:mdbf42@gmail.com">mdbf42@gmail.com</a> </div>
+      <div className={styles.footerText}>Copyright &copy; {today.getFullYear()} <a style={{ textDecoration: "underline"}} href="https://www.linkedin.com/in/barros42/">Barros</a>. Todos os direitos reservados </div>
     </div>
   </>
   )
