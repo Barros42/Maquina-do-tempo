@@ -41,7 +41,7 @@ const Home: NextPage = () => {
       return setErrorMessage("Por favor, insira uma mensagem")
 
     if(!LetterValidator.isEmailValid(form.email)) 
-      return setErrorMessage("Por favor, verifique seu e-mail")
+      return setErrorMessage("Por favor, verifique o e-mail")
 
     if(!LetterValidator.isDateValid(form.date))
       return setErrorMessage("Por favor, verifique a data de entrega")
@@ -88,13 +88,13 @@ const Home: NextPage = () => {
       <div className={styles.main}>
         {!messageSent ?
         <>
-          <div className={styles.description}>Escreva sua carta abaixo</div>
+          <div className={styles.description}>Escreva uma carta abaixo, iremos enviá-la para o futuro</div>
           <div className={styles.quillContainer}>
             <QuillNoSSRWrapper value={form.message} onChange={(value: any) => setForm({ ...form, message: value || "" })} className={styles.textbox} placeholder={'Querido eu do futuro,'} />
           </div>
           <div className={styles.fields}>
         
-            <TextField fullWidth value={form.email} onChange={e => setForm({ ...form, email: e.target.value })} required label="Seu e-mail" variant="outlined" />
+            <TextField fullWidth value={form.email} onChange={e => setForm({ ...form, email: e.target.value })} required label="E-mail do destinatário" variant="outlined" />
         
             <LocalizationProvider locale={brLocale} dateAdapter={DateFnsUtils}>
               <DatePicker
