@@ -81,6 +81,12 @@ const Home: NextPage = () => {
       <title>{Settings.APP_NAME}</title>
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <meta name="theme-color" content="#2D9CCE" />
+      <meta property="og:title" content="Máquina do Tempo - Envie mensagens para o futuro"/>
+      <meta property="og:site_name" content="Máquina do Tempo"/>
+      <meta property="og:url" content="https://www.maquinadotempo.digital"/>
+      <meta property="og:description" content="Esta máquina do tempo "/>
+      <meta property="og:type" content="website"/>
+      <meta property="og:image" content="https://www.maquinadotempo.digital/og.jpeg"/>
     </Head>
 
     <div className={styles.container}>
