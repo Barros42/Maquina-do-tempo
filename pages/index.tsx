@@ -90,7 +90,7 @@ const Home: NextPage = () => {
         <>
           <div className={styles.description}>Escreva sua carta abaixo</div>
           <div className={styles.quillContainer}>
-            <textarea value={form.message} onChange={e => setForm({ ...form, message: e.target.value || "" })} className={styles.textbox} placeholder={'Querido eu do futuro,'} />
+            <QuillNoSSRWrapper value={form.message} onChange={(value: any) => setForm({ ...form, message: value || "" })} className={styles.textbox} placeholder={'Querido eu do futuro,'} />
           </div>
           <div className={styles.fields}>
         
