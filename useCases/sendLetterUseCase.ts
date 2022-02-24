@@ -9,7 +9,6 @@ export default class SendLetterUseCase {
             ...input,
             date: format(new Date(input.date), 'Y-M-d')
         }
-        console.log(input)
        return axios.post(`${Settings.BASE_API_URL}SendLetter`, input)
     }
 }
