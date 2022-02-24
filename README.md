@@ -1,34 +1,74 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Máquina do Tempo
 
-## Getting Started
+<img src="https://poltronanerd.com.br/wp-content/uploads/2020/06/p04znpk2.jpg" alt="Máquina do Tempo">
 
-First, run the development server:
+> Um projeto feito com a única intenção de enviar mensagens para o futuro
+### Ajustes e melhorias
 
-```bash
-npm run dev
-# or
-yarn dev
+
+## 💻 Pré-requisitos
+
+Antes de começar, verifique se você atendeu aos seguintes requisitos:
+<!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
+* Você instalou a versão mais recente do `NodeJS`
+* * Você instalou a versão mais recente do `Yarn / NPM`
+* Você tem uma máquina `<Windows / Linux / Mac>`
+
+## 🚀 Instalando a Máquina do Tempo
+
+Para instalar o a Máquina do Tempo, siga estas etapas:
+
+```
+yarn install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## ☕ Usando a Máquina do Tempo
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Para usar a Máquina do tempo, você precisará do **capacitor de fluxo** veja nesse repositório:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+[CAPACITOR DE FLUXO](https://github.com/Barros42/Capacitor-de-Fluxo)
 
-## Learn More
+O capacitor de fluxo é o que permite que as mensagens viagem no tempo, utilize-o com sabedoria
 
-To learn more about Next.js, take a look at the following resources:
+## 📫 Contribuindo para a Máquina do Tempo
+<!---Se o seu README for longo ou se você tiver algum processo ou etapas específicas que deseja que os contribuidores sigam, considere a criação de um arquivo CONTRIBUTING.md separado--->
+Para contribuir com a Máquina do Tempo, siga estas etapas:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Bifurque este repositório.
+2. Crie um branch: `git checkout -b <nome_branch>`.
+3. Faça suas alterações e confirme-as: `git commit -m '<mensagem_commit>'`
+4. Envie para o branch original: `git push origin <nome_do_projeto> / <local>`
+5. Crie a solicitação de pull.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
-## Deploy on Vercel
+## 🤝 Colaboradores
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Agradecemos às seguintes pessoas que contribuíram para este projeto:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<table>
+  <tr>
+    <td align="center">
+      <a href="#">
+        <img src="https://avatars.githubusercontent.com/u/34094891?v=4" width="100px;" alt="Foto do Barros no GitHub"/><br>
+        <sub>
+          <b>Barros</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+
+## 😄 Seja um dos contribuidores<br>
+
+Quer fazer parte desse projeto? Clique [AQUI](mailto:mdbf42@gmail.com) e me mande um e-mail
+
+## 📝 Licença
+
+Copyright © 2022 -  [Barros](https://github.com/barros42)
+
+A permissão é concedida, gratuitamente, a qualquer pessoa que obtenha uma cópia deste arquivo, com restrição de publicar como SEU repositório. Porém, sem restrição nos direitos de usar, copiar, modificar e mesclar.
+
+
